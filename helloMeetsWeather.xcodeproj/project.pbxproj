@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4201528D1CA33690009DD615 /* weatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4201528C1CA33690009DD615 /* weatherData.swift */; };
 		42467A3F1C7799A900922ACB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42467A3E1C7799A900922ACB /* AppDelegate.swift */; };
 		42467A411C7799A900922ACB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42467A401C7799A900922ACB /* ViewController.swift */; };
 		42467A441C7799A900922ACB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42467A421C7799A900922ACB /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4201528C1CA33690009DD615 /* weatherData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = weatherData.swift; sourceTree = "<group>"; };
 		42467A3B1C7799A900922ACB /* helloMeetsWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = helloMeetsWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42467A3E1C7799A900922ACB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42467A401C7799A900922ACB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				42467A3E1C7799A900922ACB /* AppDelegate.swift */,
 				42467A401C7799A900922ACB /* ViewController.swift */,
+				4201528C1CA33690009DD615 /* weatherData.swift */,
 				42467A421C7799A900922ACB /* Main.storyboard */,
 				42467A451C7799A900922ACB /* Assets.xcassets */,
 				42467A471C7799A900922ACB /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				42467A411C7799A900922ACB /* ViewController.swift in Sources */,
 				42467A3F1C7799A900922ACB /* AppDelegate.swift in Sources */,
+				4201528D1CA33690009DD615 /* weatherData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +290,7 @@
 				42467A4F1C7799A900922ACB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

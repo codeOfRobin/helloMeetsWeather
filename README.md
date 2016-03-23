@@ -22,3 +22,20 @@ Sure, here's a screenshot
 ![Imgur](http://i.imgur.com/MS6cg94.png)
 
 And you can track the dev progress here : https://github.com/codeOfRobin/helloMeetsWeather
+
+
+Here's a basic schedule/timeline/overview for the session :-
+
+1. Introduction to Swift and why it's a big deal in our world.
+2. Installing and configuring Xcode.
+3. Interface builder and storyboard
+4. Building the X&O Weather app
+
+Here's a few extra topics we'll be discussing, if time permits :-
+
+1. Setting up a ruby environment on OSX.
+2. Adding third party libraries via cocoapods.
+3. Replacing our NSURLRequests with Alamofire and SwiftyJSON.
+4. Other Swift constructs(like guard, defer etc - optional).
+5. Resources/guides on swift best practices.
+6. Maybe a small session on version control?

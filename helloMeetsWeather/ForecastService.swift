@@ -19,8 +19,8 @@ struct ForecastService {
     func getForecast(completion: (weatherData? -> Void))
     {
         let nrm = NetworkRequestManager()
-        nrm.downloadFromURL("https://api.forecast.io/forecast/\(APIkey)") { (let dict) in
-            guard let currentDict = dict?["weather"] as? [String:AnyObject]
+        nrm.downloadFromURL("https://api.forecast.io/forecast/\(APIkey)/28.6,77.2") { (let dict) in
+            guard let currentDict = dict?["currently"] as? [String:AnyObject]
             else {
                 print("well, shit")
                 return
